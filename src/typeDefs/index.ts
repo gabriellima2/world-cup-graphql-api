@@ -1,12 +1,18 @@
 export const typeDefs = `
 	type Query {
 		teams: [Team]!
-		team(name: String!): Team
+		team(id: ID!): Team
 	}
 
-	type Team {
-		name: String
-		region: String
-		logo: String
+	interface Common {
+		id: ID!
+		name: String!
+	}
+
+	type Team implements Common {
+		id: ID!
+		name: String!
+		flag_url: String!
+		group: String!
 	}
 `;

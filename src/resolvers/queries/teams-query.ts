@@ -1,9 +1,13 @@
 import { teams } from "../../mocks/teams";
 
+interface TeamArgs {
+	id: string;
+}
+
 export const teamsQuery = {
 	teams: () => teams,
 
-	team: (_: unknown, { name }: { name: string }) => {
-		return teams.find((team) => team.name === name);
+	team: (_: unknown, { id }: TeamArgs) => {
+		return teams.find((team) => team.id === id);
 	},
 };
