@@ -4,7 +4,7 @@
 		"name": "catar",
 		"region": "ásia",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/125px-Flag_of_Qatar.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/catar.jpg",
 		"group": "a"
 	},
 	{
@@ -12,7 +12,7 @@
 		"name": "holanda",
 		"region": "europa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/125px-Flag_of_the_Netherlands.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/holanda.jpg",
 		"group": "a"
 	},
 	{
@@ -20,7 +20,7 @@
 		"name": "senegal",
 		"region": "áfrica",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/125px-Flag_of_Senegal.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/senegal.jpg",
 		"group": "a"
 	},
 	{
@@ -28,7 +28,7 @@
 		"name": "equador",
 		"region": "américa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/125px-Flag_of_Ecuador.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/equador.jpg",
 		"group": "a"
 	},
 	{
@@ -36,7 +36,7 @@
 		"name": "inglaterra",
 		"region": "europa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/125px-Flag_of_England.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/inglaterra.jpg",
 		"group": "b"
 	},
 	{
@@ -44,7 +44,7 @@
 		"name": "gales",
 		"region": "europa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Flag_of_Wales.svg/125px-Flag_of_Wales.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/gales.jpg",
 		"group": "b"
 	},
 	{
@@ -52,7 +52,7 @@
 		"name": "estados unidos",
 		"region": "américa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/125px-Flag_of_the_United_States.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/estados-unidos.jpg",
 		"group": "b"
 	},
 	{
@@ -60,7 +60,7 @@
 		"name": "irã",
 		"region": "ásia",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/125px-Flag_of_Iran.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/ira.jpg",
 		"group": "b"
 	},
 	{
@@ -68,7 +68,7 @@
 		"name": "arábia saudita",
 		"region": "ásia",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/125px-Flag_of_Saudi_Arabia.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/arábia-saudita.jpg",
 		"group": "c"
 	},
 	{
@@ -76,7 +76,7 @@
 		"name": "polônia",
 		"region": "europa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Flag_of_Poland.svg/125px-Flag_of_Poland.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/polonia.jpg",
 		"group": "c"
 	},
 	{
@@ -84,7 +84,7 @@
 		"name": "méxico",
 		"region": "américa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/125px-Flag_of_Mexico.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/mexico.jpg",
 		"group": "c"
 	},
 	{
@@ -92,7 +92,7 @@
 		"name": "argentina",
 		"region": "américa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/125px-Flag_of_Argentina.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/argentina.jpg",
 		"group": "c"
 	},
 	{
@@ -100,7 +100,7 @@
 		"name": "frança",
 		"region": "europa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/125px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/franca.jpg",
 		"group": "d"
 	},
 	{
@@ -108,7 +108,7 @@
 		"name": "tunísia",
 		"region": "áfrica",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/125px-Flag_of_Tunisia.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/tunisia.jpg",
 		"group": "d"
 	},
 	{
@@ -116,7 +116,7 @@
 		"name": "dinamarca",
 		"region": "europa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/125px-Flag_of_Denmark.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/dinamarca.jpg",
 		"group": "d"
 	},
 	{
@@ -124,7 +124,7 @@
 		"name": "austrália",
 		"region": "oceania",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/125px-Flag_of_Australia_%28converted%29.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/australia.jpg",
 		"group": "d"
 	},
 	{
@@ -132,7 +132,7 @@
 		"name": "costa rica",
 		"region": "américa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/125px-Flag_of_Costa_Rica.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/costa-rica.jpg",
 		"group": "e"
 	},
 	{
@@ -140,7 +140,7 @@
 		"name": "alemanha",
 		"region": "europa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/125px-Flag_of_Germany.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/alemanha.jpg",
 		"group": "e"
 	},
 	{
@@ -148,7 +148,7 @@
 		"name": "japão",
 		"region": "ásia",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/125px-Flag_of_Japan.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/japao.jpg",
 		"group": "e"
 	},
 	{
@@ -156,7 +156,7 @@
 		"name": "bélgica",
 		"region": "europa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/125px-Flag_of_Belgium.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/belgica.jpg",
 		"group": "f"
 	},
 	{
@@ -164,7 +164,7 @@
 		"name": "canadá",
 		"region": "américa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/125px-Flag_of_Canada_%28Pantone%29.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/canada.jpg",
 		"group": "f"
 	},
 	{
@@ -172,7 +172,7 @@
 		"name": "croácia",
 		"region": "europa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/125px-Flag_of_Croatia.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/croacia.jpg",
 		"group": "f"
 	},
 	{
@@ -180,7 +180,7 @@
 		"name": "marrocos",
 		"region": "áfrica",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/125px-Flag_of_Morocco.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/marrocos.jpg",
 		"group": "f"
 	},
 	{
@@ -188,7 +188,7 @@
 		"name": "brasil",
 		"region": "américa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/125px-Flag_of_Brazil.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/brasil.jpg",
 		"group": "g"
 	},
 	{
@@ -196,7 +196,7 @@
 		"name": "camarões",
 		"region": "áfrica",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/125px-Flag_of_Cameroon.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/camaroes.jpg",
 		"group": "g"
 	},
 	{
@@ -204,7 +204,7 @@
 		"name": "sérvia",
 		"region": "europa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/125px-Flag_of_Serbia.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/servia.jpg",
 		"group": "g"
 	},
 	{
@@ -212,7 +212,7 @@
 		"name": "suíça",
 		"region": "europa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/125px-Flag_of_Switzerland_%28Pantone%29.svg.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/suica.jpg",
 		"group": "g"
 	},
 	{
@@ -220,7 +220,7 @@
 		"name": "gana",
 		"region": "áfrica",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/pt/thumb/7/7c/FSenegalaiseF.png/150px-FSenegalaiseF.png",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/gana.jpg",
 		"group": "h"
 	},
 	{
@@ -228,20 +228,23 @@
 		"name": "coreia do sul",
 		"region": "ásia",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/125px-Flag_of_South_Korea.svg.png",
-		"group": "h"	},
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/coreia-do-sul.jpg",
+		"group": "h"
+	},
 	{
 		"id": "31",
 		"name": "portugal",
 		"region": "europa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/125px-Flag_of_Portugal.svg.png",
-		"group": "h"	},
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/portugal.jpg",
+		"group": "h"
+	},
 	{
 		"id": "32",
 		"name": "uruguai",
 		"region": "américa",
 		"flag_url":
-			"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/125px-Flag_of_Uruguay.svg.png",
-		"group": "h"	}
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/uruguai.jpg",
+		"group": "h"
+	}
 ]
