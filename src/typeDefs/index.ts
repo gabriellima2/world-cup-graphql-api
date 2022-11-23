@@ -1,6 +1,6 @@
 export const typeDefs = `
 	type Query {
-		teams: [Team]!
+		teams(name: String, group: String): [Team]!
 		team(id: ID!): Team
 	}
 

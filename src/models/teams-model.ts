@@ -8,9 +8,13 @@ class TeamsModel extends BaseModel<ITeam> {
 	}
 
 	public getById(id: string): ITeam | undefined {
-		return this.data.find((item) => {
-			return item.id === id;
-		});
+		return this.data.find((item) => item.id === id);
+	}
+
+	public getByKey(key: keyof ITeam, value: string): ITeam[] | [] {
+		const valueFormatted = value.trim().toLowerCase();
+
+		return this.data.filter((item) => item[key] === valueFormatted);
 	}
 }
 

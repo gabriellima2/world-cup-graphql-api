@@ -16,7 +16,7 @@ export abstract class BaseModel<TAllData> extends ReadFile<TAllData[]> {
 		return undefined;
 	}
 
-	public getByName(name: string): TAllData | undefined {
-		return undefined;
+	public getByKey(key: keyof TAllData, value: string): TAllData[] | [] {
+		return [];
 	}
 }
