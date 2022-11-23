@@ -1,13 +1,10 @@
-import { teams } from "../../mocks/teams";
+import { teamsModel } from "../../models/teams-model";
 
 interface TeamArgs {
 	id: string;
 }
 
 export const teamsQuery = {
-	teams: () => teams,
-
-	team: (_: unknown, { id }: TeamArgs) => {
-		return teams.find((team) => team.id === id);
-	},
+	teams: () => teamsModel.data,
+	team: async (_: unknown, { id }: TeamArgs) => teamsModel.getById(id),
 };
