@@ -1,4 +1,4 @@
-import { teamsQuery } from "./queries/teams-query";
+import { teamsQuery } from "@queries/teams-query";
 
 export const resolvers = {
 	Query: {

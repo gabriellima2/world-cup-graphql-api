@@ -1,8 +1,8 @@
-import { getDataFromFile } from "../../modules/getDataFromFile";
-import { applyFilter } from "../../modules/applyFilter";
-import { getById } from "../../modules/getById";
+import { getDataFromFile } from "@modules/getDataFromFile";
+import { applyFilter } from "@modules/applyFilter";
+import { getById } from "@modules/getById";
 
-import type { ITeam } from "../../interfaces/ITeam";
+import type { ITeam } from "@interfaces/ITeam";
 
 interface TeamArgs {
 	id: string;

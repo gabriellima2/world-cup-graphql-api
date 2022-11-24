@@ -1,6 +1,8 @@
+import "module-alias/register";
+
 import { startStandaloneServer } from "@apollo/server/standalone";
 
-import { PORT } from "./constants";
+import { PORT } from "@constants";
 import { server } from "./server";
 
 (async function () {
