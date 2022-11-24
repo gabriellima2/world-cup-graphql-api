@@ -137,6 +137,14 @@
 	},
 	{
 		"id": "18",
+		"name": "espanha",
+		"region": "europa",
+		"flag_url":
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/espanha.jpg",
+		"group": "e"
+	},
+	{
+		"id": "19",
 		"name": "alemanha",
 		"region": "europa",
 		"flag_url":
@@ -144,7 +152,7 @@
 		"group": "e"
 	},
 	{
-		"id": "19",
+		"id": "20",
 		"name": "japão",
 		"region": "ásia",
 		"flag_url":
@@ -152,7 +160,7 @@
 		"group": "e"
 	},
 	{
-		"id": "20",
+		"id": "21",
 		"name": "bélgica",
 		"region": "europa",
 		"flag_url":
@@ -160,7 +168,7 @@
 		"group": "f"
 	},
 	{
-		"id": "21",
+		"id": "22",
 		"name": "canadá",
 		"region": "américa",
 		"flag_url":
@@ -168,7 +176,7 @@
 		"group": "f"
 	},
 	{
-		"id": "22",
+		"id": "23",
 		"name": "croácia",
 		"region": "europa",
 		"flag_url":
@@ -176,7 +184,7 @@
 		"group": "f"
 	},
 	{
-		"id": "23",
+		"id": "24",
 		"name": "marrocos",
 		"region": "áfrica",
 		"flag_url":
@@ -184,7 +192,7 @@
 		"group": "f"
 	},
 	{
-		"id": "24",
+		"id": "25",
 		"name": "brasil",
 		"region": "américa",
 		"flag_url":
@@ -192,7 +200,7 @@
 		"group": "g"
 	},
 	{
-		"id": "25",
+		"id": "26",
 		"name": "camarões",
 		"region": "áfrica",
 		"flag_url":
@@ -200,7 +208,7 @@
 		"group": "g"
 	},
 	{
-		"id": "26",
+		"id": "27",
 		"name": "sérvia",
 		"region": "europa",
 		"flag_url":
