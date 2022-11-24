@@ -21,7 +21,7 @@ export const teamsQuery = {
 		const hasTheSpecifiedTeam = getById(teamsData, id);
 
 		if (!hasTheSpecifiedTeam)
-			throw new GraphQLError("O time especificado não foi encontrado!", {
+			throw new GraphQLError("A seleção especificada não foi encontrada!", {
 				extensions: { code: ApolloServerErrorCode.BAD_USER_INPUT },
 			});
 
@@ -29,41 +29,20 @@ export const teamsQuery = {
 	},
 	teams: (_: unknown, args: Omit<TeamArgs, "id">) => {
 		const { group, name, region } = args;
+		let teamsFiltered = teamsData;
 
-		if (group && region && name) {
-			return applyFilter(
-				applyFilter(applyFilter(teamsData, "region", region), "group", group),
-				"name",
-				name
-			);
+		if (region) {
+			teamsFiltered = applyFilter(teamsFiltered, "region", region);
 		}
 
-		if (group && region) {
-			return applyFilter(
-				applyFilter(teamsData, "group", group),
-				"region",
-				region
-			);
+		if (group) {
+			teamsFiltered = applyFilter(teamsFiltered, "group", group);
 		}
 
-		if (name && region) {
-			return applyFilter(
-				applyFilter(teamsData, "name", name),
-				"region",
-				region
-			);
+		if (name) {
+			teamsFiltered = applyFilter(teamsFiltered, "name", name);
 		}
 
-		if (name && group) {
-			return applyFilter(applyFilter(teamsData, "name", name), "group", group);
-		}
-
-		if (region) return applyFilter(teamsData, "region", region);
-
-		if (group) return applyFilter(teamsData, "group", group);
-
-		if (name) return applyFilter(teamsData, "name", name);
-
-		return teamsData;
+		return teamsFiltered;
 	},
 };
