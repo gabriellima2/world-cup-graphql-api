@@ -1,4 +1,8 @@
-import { teamsModel } from "../../models/teams-model";
+import { getDataFromFile } from "../../modules/getDataFromFile";
+import { applyFilter } from "../../modules/applyFilter";
+import { getById } from "../../modules/getById";
+
+import type { ITeam } from "../../interfaces/ITeam";
 
 interface TeamArgs {
 	id: string;
@@ -6,15 +10,17 @@ interface TeamArgs {
 	group: string | undefined;
 }
 
+const teamsData = getDataFromFile<ITeam[]>("teams");
+
 export const teamsQuery = {
 	teams: (_: unknown, args: Omit<TeamArgs, "id">) => {
 		const { group, name } = args;
 
-		if (name) return teamsModel.getByKey("name", name);
+		if (name) return applyFilter<ITeam>(teamsData, "name", name);
 
-		if (group) return teamsModel.getByKey("group", group);
+		if (group) return applyFilter<ITeam>(teamsData, "group", group);
 
-		return teamsModel.data;
+		return teamsData;
 	},
-	team: (_: unknown, { id }: Pick<TeamArgs, "id">) => teamsModel.getById(id),
+	team: (_: unknown, { id }: Pick<TeamArgs, "id">) => getById(teamsData, id),
 };
