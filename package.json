@@ -18,7 +18,8 @@
 		"@resolvers": "src/resolvers/index.ts",
 		"@typedefs": "src/typeDefs/index.ts",
 		"@queries": "src/resolvers/queries",
-		"@constants": "src/constants"
+		"@constants": "src/constants",
+		"@schemas": "src/graphql/schemas/index.ts"
 	},
   "devDependencies": {
     "@types/module-alias": "^2.0.1",
