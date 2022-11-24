@@ -3,4 +3,5 @@ type Team {
 	name: String!
 	flag_url: String!
 	group: String!
+	region: String!
 }

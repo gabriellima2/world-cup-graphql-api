@@ -17,25 +17,6 @@ interface TeamArgs {
 const teamsData = getDataFromFile<ITeam[]>("teams");
 
 export const teamsQuery = {
-	teams: (_: unknown, args: Omit<TeamArgs, "id">) => {
-		const { group, name, region } = args;
-
-		if (group && region) {
-			return applyFilter(
-				applyFilter(teamsData, "group", group),
-				"region",
-				region
-			);
-		}
-
-		if (region) return applyFilter<ITeam>(teamsData, "region", region);
-
-		if (group) return applyFilter<ITeam>(teamsData, "group", group);
-
-		if (name) return applyFilter<ITeam>(teamsData, "name", name);
-
-		return teamsData;
-	},
 	team: (_: unknown, { id }: Pick<TeamArgs, "id">) => {
 		const hasTheSpecifiedTeam = getById(teamsData, id);
 
@@ -45,5 +26,44 @@ export const teamsQuery = {
 			});
 
 		return hasTheSpecifiedTeam;
+	},
+	teams: (_: unknown, args: Omit<TeamArgs, "id">) => {
+		const { group, name, region } = args;
+
+		if (group && region && name) {
+			return applyFilter(
+				applyFilter(applyFilter(teamsData, "region", region), "group", group),
+				"name",
+				name
+			);
+		}
+
+		if (group && region) {
+			return applyFilter(
+				applyFilter(teamsData, "group", group),
+				"region",
+				region
+			);
+		}
+
+		if (name && region) {
+			return applyFilter(
+				applyFilter(teamsData, "name", name),
+				"region",
+				region
+			);
+		}
+
+		if (name && group) {
+			return applyFilter(applyFilter(teamsData, "name", name), "group", group);
+		}
+
+		if (region) return applyFilter(teamsData, "region", region);
+
+		if (group) return applyFilter(teamsData, "group", group);
+
+		if (name) return applyFilter(teamsData, "name", name);
+
+		return teamsData;
 	},
 };
