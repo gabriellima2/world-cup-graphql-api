@@ -1,3 +1,6 @@
+import { ApolloServerErrorCode } from "@apollo/server/errors";
+import { GraphQLError } from "graphql";
+
 import { getDataFromFile } from "@modules/getDataFromFile";
 import { applyFilter } from "@modules/applyFilter";
 import { getById } from "@modules/getById";
@@ -33,5 +36,14 @@ export const teamsQuery = {
 
 		return teamsData;
 	},
-	team: (_: unknown, { id }: Pick<TeamArgs, "id">) => getById(teamsData, id),
+	team: (_: unknown, { id }: Pick<TeamArgs, "id">) => {
+		const hasTheSpecifiedTeam = getById(teamsData, id);
+
+		if (!hasTheSpecifiedTeam)
+			throw new GraphQLError("O time especificado não foi encontrado!", {
+				extensions: { code: ApolloServerErrorCode.BAD_USER_INPUT },
+			});
+
+		return hasTheSpecifiedTeam;
+	},
 };
