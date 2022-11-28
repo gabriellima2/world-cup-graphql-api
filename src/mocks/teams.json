@@ -4,7 +4,7 @@
 		"name": "catar",
 		"region": "ásia",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/catar.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/catar.jpg?raw=true",
 		"group": "a"
 	},
 	{
@@ -12,7 +12,7 @@
 		"name": "holanda",
 		"region": "europa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/holanda.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/holanda.jpg?raw=true",
 		"group": "a"
 	},
 	{
@@ -20,7 +20,7 @@
 		"name": "senegal",
 		"region": "áfrica",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/senegal.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/senegal.jpg?raw=true",
 		"group": "a"
 	},
 	{
@@ -28,7 +28,7 @@
 		"name": "equador",
 		"region": "américa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/equador.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/equador.jpg?raw=true",
 		"group": "a"
 	},
 	{
@@ -36,7 +36,7 @@
 		"name": "inglaterra",
 		"region": "europa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/inglaterra.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/inglaterra.jpg?raw=true",
 		"group": "b"
 	},
 	{
@@ -44,7 +44,7 @@
 		"name": "gales",
 		"region": "europa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/gales.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/gales.jpg?raw=true",
 		"group": "b"
 	},
 	{
@@ -52,7 +52,7 @@
 		"name": "estados unidos",
 		"region": "américa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/estados-unidos.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/estados-unidos.jpg?raw=true",
 		"group": "b"
 	},
 	{
@@ -60,7 +60,7 @@
 		"name": "irã",
 		"region": "ásia",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/ira.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/ira.jpg?raw=true",
 		"group": "b"
 	},
 	{
@@ -68,7 +68,7 @@
 		"name": "arábia saudita",
 		"region": "ásia",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/arábia-saudita.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/main/src/assets/flags/arabia-saudita.jpg?raw=true",
 		"group": "c"
 	},
 	{
@@ -76,7 +76,7 @@
 		"name": "polônia",
 		"region": "europa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/polonia.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/polonia.jpg?raw=true",
 		"group": "c"
 	},
 	{
@@ -84,7 +84,7 @@
 		"name": "méxico",
 		"region": "américa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/mexico.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/mexico.jpg?raw=true",
 		"group": "c"
 	},
 	{
@@ -92,7 +92,7 @@
 		"name": "argentina",
 		"region": "américa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/argentina.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/argentina.jpg?raw=true",
 		"group": "c"
 	},
 	{
@@ -100,7 +100,7 @@
 		"name": "frança",
 		"region": "europa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/franca.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/franca.jpg?raw=true",
 		"group": "d"
 	},
 	{
@@ -108,7 +108,7 @@
 		"name": "tunísia",
 		"region": "áfrica",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/tunisia.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/tunisia.jpg?raw=true",
 		"group": "d"
 	},
 	{
@@ -116,7 +116,7 @@
 		"name": "dinamarca",
 		"region": "europa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/dinamarca.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/dinamarca.jpg?raw=true",
 		"group": "d"
 	},
 	{
@@ -124,7 +124,7 @@
 		"name": "austrália",
 		"region": "oceania",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/australia.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/australia.jpg?raw=true",
 		"group": "d"
 	},
 	{
@@ -132,7 +132,7 @@
 		"name": "costa rica",
 		"region": "américa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/costa-rica.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/costa-rica.jpg?raw=true",
 		"group": "e"
 	},
 	{
@@ -140,7 +140,7 @@
 		"name": "espanha",
 		"region": "europa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/espanha.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/espanha.jpg?raw=true",
 		"group": "e"
 	},
 	{
@@ -148,7 +148,7 @@
 		"name": "alemanha",
 		"region": "europa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/alemanha.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/alemanha.jpg?raw=true",
 		"group": "e"
 	},
 	{
@@ -156,7 +156,7 @@
 		"name": "japão",
 		"region": "ásia",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/japao.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/japao.jpg?raw=true",
 		"group": "e"
 	},
 	{
@@ -164,7 +164,7 @@
 		"name": "bélgica",
 		"region": "europa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/belgica.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/belgica.jpg?raw=true",
 		"group": "f"
 	},
 	{
@@ -172,7 +172,7 @@
 		"name": "canadá",
 		"region": "américa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/canada.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/canada.jpg?raw=true",
 		"group": "f"
 	},
 	{
@@ -180,7 +180,7 @@
 		"name": "croácia",
 		"region": "europa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/croacia.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/croacia.jpg?raw=true",
 		"group": "f"
 	},
 	{
@@ -188,7 +188,7 @@
 		"name": "marrocos",
 		"region": "áfrica",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/marrocos.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/marrocos.jpg?raw=true",
 		"group": "f"
 	},
 	{
@@ -196,7 +196,7 @@
 		"name": "brasil",
 		"region": "américa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/brasil.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/brasil.jpg?raw=true",
 		"group": "g"
 	},
 	{
@@ -204,7 +204,7 @@
 		"name": "camarões",
 		"region": "áfrica",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/camaroes.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/camaroes.jpg?raw=true",
 		"group": "g"
 	},
 	{
@@ -212,7 +212,7 @@
 		"name": "sérvia",
 		"region": "europa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/servia.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/servia.jpg?raw=true",
 		"group": "g"
 	},
 	{
@@ -220,7 +220,7 @@
 		"name": "suíça",
 		"region": "europa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/suica.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/suica.jpg?raw=true",
 		"group": "g"
 	},
 	{
@@ -228,7 +228,7 @@
 		"name": "gana",
 		"region": "áfrica",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/gana.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/gana.jpg?raw=true",
 		"group": "h"
 	},
 	{
@@ -236,7 +236,7 @@
 		"name": "coreia do sul",
 		"region": "ásia",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/coreia-do-sul.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/coreia-do-sul.jpg?raw=true",
 		"group": "h"
 	},
 	{
@@ -244,7 +244,7 @@
 		"name": "portugal",
 		"region": "europa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/portugal.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/portugal.jpg?raw=true",
 		"group": "h"
 	},
 	{
@@ -252,7 +252,7 @@
 		"name": "uruguai",
 		"region": "américa",
 		"flag_url":
-			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/uruguai.jpg",
+			"https://github.com/gabriellima2/world-cup-graphql-api/blob/dev/src/assets/flags/uruguai.jpg?raw=true",
 		"group": "h"
 	}
 ]
