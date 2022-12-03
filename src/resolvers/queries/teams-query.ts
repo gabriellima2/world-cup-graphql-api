@@ -40,7 +40,7 @@ export const teamsQuery = {
 		}
 
 		if (name) {
-			teamsFiltered = applyFilter(teamsFiltered, "name", name);
+			teamsFiltered = teamsFiltered.filter((team) => team.name.includes(name));
 		}
 
 		return teamsFiltered;
